@@ -32,7 +32,7 @@ class App extends Component {
   initialWeather = async () => {
     var self = this;
 
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=Dallas,US&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
+    const api_call = await fetch(`https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=Dallas,US&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
 
     const response = await api_call.json();
     console.log('heres the response: ', response);
@@ -117,7 +117,7 @@ class App extends Component {
 
     const country = e.target.elements.country.value;
 
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
+    const api_call = await fetch(`https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
 
     const response = await api_call.json();
 
@@ -167,7 +167,7 @@ class App extends Component {
 
     const country = thisCountry;
 
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
+    const api_call = await fetch(`https://crossorigin.me/http://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&appid=fb44b7724c22bbcc33d5563bbd500bf0`);
 
     const response = await api_call.json();
 
