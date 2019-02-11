@@ -1,0 +1,89 @@
+@media screen and (min-width: 600px) {
+  .forecast-week-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+  }
+
+  .forecast-day-info {
+    border-right: 1px solid $grey1;
+    border-bottom-width: 0;
+  }
+
+  .day-stats {
+    span,
+    .icon-wrapper {
+      display: block;
+    }
+
+    .icon-wrapper,
+    .forecast-temp-wrapper{
+      float: none;
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+
+  .day-stats-day {
+    float: none;
+    font-weight: normal;
+    text-transform: none;
+  }
+
+  .today-weather {
+    top: 0;
+    left: 0;
+    right: inherit;
+    color: $blue3;
+    margin-left: 0;
+
+    .icon-wrapper {
+      display: inline-block;
+      margin-top: 0;
+    }
+
+    .tempC,
+    .tempF {
+      left: inherit;
+      text-align: right;
+    }
+  }
+
+  .today-weather-misc {
+    text-align: left;
+  }
+
+  .today-temp:after {
+    border-color: $blue3;
+  }
+
+  .today-stats {
+    svg {
+      fill: $blue3;
+    }
+  }
+
+  .App-header {
+    margin: 170px auto 40px;
+  }
+
+  .form-wrapper {
+    transform: translateY(-100%);
+  }
+
+  .forecast-week-wrapper {
+    margin-top: -40px;
+  }
+
+  .img-wrapper {
+    background: none;
+
+    &:after {
+      display: none;
+    }
+
+    img {
+      display: block;
+    }
+  }
+}
