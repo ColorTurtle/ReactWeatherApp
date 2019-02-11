@@ -14,11 +14,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   align-items: center;
   background: $white;
@@ -26,7 +21,7 @@
   box-shadow: 0 0 40px 0px $blue4;
   position: relative;
   font-family: 'Lucida Grande';
-  margin: 170px auto 40px;
+  margin: 90px auto 40px;
   max-width: 670px;
   display: flex;
   flex-direction: column;
@@ -116,3 +111,5 @@
     transform: translateX(-0px) scaleX(-1);
   }
 }
+
+@import "scss/responsive";

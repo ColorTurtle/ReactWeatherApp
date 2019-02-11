@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 600px) {
   .forecast-week-wrapper {
     display: flex;
@@ -36,6 +37,7 @@
     right: inherit;
     color: $blue3;
     margin-left: 0;
+    text-shadow: none;
 
     .icon-wrapper {
       display: inline-block;
@@ -60,6 +62,7 @@
   .today-stats {
     svg {
       fill: $blue3;
+      stroke: $blue3;
     }
   }
 
