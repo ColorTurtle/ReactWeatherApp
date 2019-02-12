@@ -12,6 +12,8 @@ For this app, I wanted to get more muscle memory for using React. My goals were 
 6. Use an open weather API
 7. Include some kind of animation 
 
+You can view this project in the browser at [reactweatherapp.colorturtle.com](http://reactweatherapp.colorturtle.com/).
+
 ### Challenges
 * Coming Soon
 
